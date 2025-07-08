@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aktivitas Outdoor - Victor Outdoor Gear</title>
+  <link rel="stylesheet" href="css/styleaktivitas.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Victor Outdoor Gear</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="produk.html">Produk</a></li>
+          <li><a href="aktivitas.html" class="active">Aktivitas</a></li>
+          <li><a href="keranjang.html">Keranjang</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="aktivitas container">
+    <h2>Jelajahi Berdasarkan Aktivitas</h2>
+    <div class="aktivitas-grid">
+      <div class="aktivitas-card" style="background-image: url('images/hiking.jpg');">
+        <div class="overlay">
+          <h3>Hiking</h3>
+          <p>Jelajahi jalur pegunungan dan hutan tropis dengan perlengkapan ringan dan tahan cuaca.</p>
+          <a href="produk.html?kategori=hiking" class="btn">Lihat Produk</a>
+        </div>
+      </div>
+      <div class="aktivitas-card" style="background-image: url('images/camping.jpg');">
+        <div class="overlay">
+          <h3>Camping</h3>
+          <p>Rasakan pengalaman bermalam di alam terbuka dengan tenda, matras, dan alat masak terbaik.</p>
+          <a href="produk.html?kategori=camping" class="btn">Lihat Produk</a>
+        </div>
+      </div>
+      <div class="aktivitas-card" style="background-image: url('images/climbing.jpg');">
+        <div class="overlay">
+          <h3>Rock Climbing</h3>
+          <p>Taklukkan tebing dan jalur vertikal dengan perlengkapan panjat yang aman dan andal.</p>
+            <a href="produk.html?kategori=climbing" class="btn">Lihat Produk</a>
+        </div>
+      </div>
+      <!-- Tambahkan aktivitas lainnya -->
+    </div>
+  </section>
+
+<script>
+  window.addEventListener('load', () => {
+    document.body.classList.add('loaded');
+  });
+</script>
+
+    <footer class="site-footer">
+        <div class="container">
+        <p>&copy; 2025 Victor Outdoor Gear. All rights reserved.</p>
+        <nav class="footer-nav">
+            <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="aktivitas.html">Aktivitas</a></li>
+            <li><a href="keranjang.html">Keranjang</a></li>
+            </ul>
+        </nav>
+        </div>
+    </footer>
+    
+</body>
+</html>
